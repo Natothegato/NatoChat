@@ -22,7 +22,7 @@ To access the .java files, to go <NatoChat_Component> -> src to find the directo
 The server component can be started by going to the NatoChat_Server's dist folder and executing
 on the Windows NT command prompt:
 <br><br>
-start java.exe -jar NatoChat_Server.jar <port-numner> - where the <port-number> must be higher than 1023
+start java.exe -jar NatoChat_Server.jar "port-number" - where the "port-number" must be higher than 1023
 </p> <br>
 
 <h2>EXECUTING THE SERVER COMPONENT</h2>
@@ -30,5 +30,5 @@ start java.exe -jar NatoChat_Server.jar <port-numner> - where the <port-number> 
 The client component can be started by going to the NatoChat_Client's dist folder and executing
 on the Windows NT command prompt:
 <br><br>
-start javaw.exe -jar NatoChat_Client.jar <server-name> <port-number> - where the <server-name> and <port-number> target a computer with the NatoChat_Server component
+start javaw.exe -jar NatoChat_Client.jar "server-name" "port-number" - where the "server-name" and "port-number" target a computer with the NatoChat_Server component
 </p> <br>
